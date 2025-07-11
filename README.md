@@ -4,7 +4,8 @@ Welcome to my Python learning roadmap! This repository is a structured collectio
 
 ## 📁 Folder Structure
 
-```Beginner/
+```
+Beginner/
 ├── basics.py # Variables, data types, I/O
 ├── conditions.py # If-else logic
 ├── loops.py # For/while loops
