@@ -108,9 +108,13 @@ def vigenere(str,key, direction = 1):
         encrypted_text += alphabet[new_index]
     return encrypted_text
 
-text = 'Hello Zaira'
-custom_key = 'python'
-encryption = vigenere(text, custom_key, 1)
+def encryptVigenere(str,key):
+    return vigenere(str,key)
+def decryptVigenere(str,key):
+    return vigenere(str,key,-1)
+text = 'Nappy Dev Coding Day One'
+custom_key = 'mypythonjourney'
+encryption = encryptVigenere(text,custom_key)
 print(encryption)
-decryption = vigenere(encryption, custom_key, -1)
+decryption = decryptVigenere(encryption,custom_key)
 print(decryption)
