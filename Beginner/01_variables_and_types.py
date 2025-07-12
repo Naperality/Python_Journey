@@ -118,3 +118,22 @@ encryption = encryptVigenere(text,custom_key)
 print(encryption)
 decryption = decryptVigenere(encryption,custom_key)
 print(decryption)
+
+# caesar code using ascii codes
+def caesarVersion2(str,offset,direction = 1):
+    result = ''
+    for letter in str:
+        if letter.isalpha():
+            base = ord('A') if letter.isupper() else ord('a')
+            shift = (ord(letter) - base + offset * direction) % 26
+            result += chr(base + shift)
+        else:
+            result += letter
+    return result
+
+sampleStr = "Nappy Dev Coding Day One!"
+encrypted = caesarVersion2(sampleStr, 3, direction=1)
+decrypted = caesarVersion2(encrypted, 3, direction=-1)
+
+print("Encrypted:", encrypted)
+print("Decrypted:", decrypted)
