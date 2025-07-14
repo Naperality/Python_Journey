@@ -25,3 +25,20 @@ fruits2 = tuple(fruits) # tuple
 print(type(fruits2))
 for x in fruits2:
     print(x)
+
+# range function lets loop over a number
+for x in range(6):
+    print(x)
+    
+# range has range(start,stop,step) or range(start,stop)
+for x in range(1,30,5):
+    print(x)
+else: 
+    print('Finished')
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
