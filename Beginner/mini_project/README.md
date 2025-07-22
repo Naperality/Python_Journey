@@ -38,6 +38,7 @@ This project makes use of all the core Python basics:
 ```
 mini_project/
 ├── student_manager.py # Main Python script
+├── students.txt # the file saved to be loaded or changed
 └── README.md # This file
 ```
 
