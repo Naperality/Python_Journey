@@ -12,7 +12,6 @@ This folder contains my foundational Python exercises and mini-projects. I'm foc
 - ✅ Strings and List Manipulation
 - ✅ Dictionaries and Sets
 - ✅ File I/O (basic reading and writing)
-- ✅ Error Handling (try/except)
 
 ---
 
@@ -24,9 +23,11 @@ Beginner/
 ├── 02_conditions.py
 ├── 03_loops.py
 ├── 04_functions.py
-├── 05_strings_and_lists.py
-├── 06_dicts_and_sets.py
-├── 07_file_io.py
+├── 05_numbers_random.py
+├── 06_strings.py
+├── 07_list.py
+├── 08_sets_dict.py
+├── 09_file_io.py
 ├── mini_project/
 │ ├── student_manager.py
 │ └── README.md
