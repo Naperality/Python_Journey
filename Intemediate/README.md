@@ -9,7 +9,6 @@ This folder contains my **intermediate-level Python practice**, focusing on data
 - ✅ Data Structures (Lists, Stacks, Queues, Trees, Graphs)
 - ✅ Recursion & Backtracking
 - ✅ Searching & Sorting Algorithms
-- ✅ Problem-solving with time/space complexity
 - ✅ Mini Python applications using core logic
 
 ---
@@ -19,12 +18,11 @@ This folder contains my **intermediate-level Python practice**, focusing on data
 ```
 Intermediate/
 ├── dsa/
-│ ├── 01_arrays.py
-│ ├── 02_stacks.py
-│ ├── 03_queues.py
-│ ├── 04_linked_lists.py
-│ ├── 05_trees.py
-│ ├── 06_graphs.py
+│ ├── 01_arraysStacks.py
+│ ├── 02_queues.py
+│ ├── 03_linked_lists.py
+│ ├── 04_trees.py
+│ ├── 05_bst.py
 │ └── README.md
 │
 ├── recursion/
@@ -33,11 +31,18 @@ Intermediate/
 │ ├── 03_permutations.py
 │ └── README.md
 │
-├── sorting_searching/
-│ ├── 01_bubble_sort.py
-│ ├── 02_merge_sort.py
-│ ├── 03_quick_sort.py
-│ ├── 04_binary_search.py
+├── Algorithms/
+│ ├── Search Algo
+│ │ ├── 01_linearSearch.py
+| │ └── 02_binarySearch.py
+| ├── Sorting Algo
+│ │ ├── 01_bubbleSort.py
+| │ ├── 02_selectionSort.py
+│ │ ├── 03_insertionSort.py
+| │ ├── 04_quickSort.py
+│ │ ├── 05_countSort.py
+| │ ├── 06_radixSort.py
+│ | └── 07_mergeSort.py
 │ └── README.md
 │
 ├── projects/

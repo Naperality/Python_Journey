@@ -19,12 +19,6 @@ Intermediate/
 ├── recursion/ # Recursive problems
 ├── sorting_searching/ # Sorting algorithms, binary search
 ├── projects/ # Intermediate-level apps
-
-Expert/
-├── oops/ # Object-oriented programming
-├── web_api/ # Flask or Django projects
-├── advanced_dsa/ # Trees, graphs, dynamic programming
-├── interview_practice/ # Coding interview problems
 ```
 
 ## 💡 Why I Created This
