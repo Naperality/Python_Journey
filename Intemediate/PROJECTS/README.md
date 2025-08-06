@@ -4,9 +4,10 @@ This folder includes simple yet complete Python mini projects. These are beginne
 
 ## Projects
 
-- `budget_tracker.py` - Track and manage a simple personal budget
-- `quiz_game.py` - A command-line multiple-choice quiz game
-- `contact_book.py` - CLI-based contact book with CRUD functionality
+- `notepad_stack.py` - Track and manage a simple personal notepad with undo
+- `job_queue.py` - A command-line add jobs on queue
+- `task_linkedList.py` - Track and manage task that uses linked list 
+- `contact_book_dict.py` - CLI-based contact book uese dictionary
 - `README.md` - Documentation for this folder
 
 ## Running the Projects
