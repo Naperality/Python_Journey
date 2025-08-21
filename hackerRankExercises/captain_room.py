@@ -37,3 +37,16 @@
 
 # The list of room numbers contains  elements. Since  is , there must be  groups of families. In the given list, all of the numbers repeat  times except for room number .
 # # Hence,  is the Captain's room number.
+
+import collections
+def captain_room_finder(k, tourists):
+    room_count = collections.Counter(room_numbers)
+    for room, count in room_count.items():
+        if count == 1:
+            return room
+    return None
+
+k = int(input().strip())
+room_numbers = list(map(int, input().strip().split()))
+captain_room = captain_room_finder(k, room_numbers)
+print(captain_room)
