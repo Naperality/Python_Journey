@@ -15,5 +15,5 @@ print(find_duplicate(lst))
 import collections
 def find_duplicate_counter(lst):
     count = collections.Counter(lst)
-    return [num for num, freq in count.items() if freq > 1]
+    return {num: val for num, val in count.items()}
 print(find_duplicate_counter(lst))
